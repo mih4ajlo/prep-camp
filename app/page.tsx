@@ -1,5 +1,4 @@
-import Header from "@/components/Header";
-import Menu from "@/components/menu";
+
 import Link from "next/link";
 
 export default async function Index() {
@@ -40,9 +39,7 @@ export default async function Index() {
             <Link className="underline" href={"/participants"}>registerd participants</Link>
           </div>
 
-          <div> If you are not student but you want to compete in Novi Sad - we got you covered. As a side tournament we are organizing Novi Sad open - and everyone can participate with no restrictions.
-            Please check <Link href={'/nsOpen'}>tournament page for details</Link> 
-          </div>
+          
         
       </div>
     </div>

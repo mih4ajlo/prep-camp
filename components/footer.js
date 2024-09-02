@@ -6,15 +6,7 @@ export default function footer() {
         <div>
           Organization by{" "}
          
-            <a 
-                href="https://www.uns.ac.rs/" 
-                target="_blank"
-                className="font-bold hover:underline"
-                rel="noreferrer"
-                >
-                University of Novi Sad 
-            </a>
-            {" "} and {" "}
+           
             <a 
                 href="http://goss.rs/" 
                 target="_blank"
@@ -22,15 +14,8 @@ export default function footer() {
                 rel="noreferrer"
                 >
                 Serbian Go Federation
-            </a> {" "} and {" "}
-            <a 
-                href="https://www.eurogofed.org/" 
-                target="_blank"
-                className="font-bold hover:underline"
-                rel="noreferrer"
-                >
-                European Go Federation
             </a>
+           
         </div>
 
         <div className="mt-8">
@@ -38,12 +23,12 @@ export default function footer() {
                 Usefull links {" "}
             </p>
             <a 
-                href="https://novisad.travel/en/" 
+                href="https://www.tob.rs/en" 
                 target="_blank"
                 className="font-bold hover:underline"
                 rel="noreferrer"
                 >
-                Tourist Organisation of Novi Sad
+                Tourist Organisation of Belgrade
             </a>
         </div>
         

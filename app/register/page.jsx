@@ -1,13 +1,16 @@
 "use client";
 
 import React, { useState } from "react";
-import { insertData } from "../../utils/supabase/actions";
-import classes from './register.module.css';
+import { registerForOpen } from "../../utils/supabase/actions";
+import classes from '../register/register.module.css';
 import CategoryButton from '../../components/categoryButton'
 
-const Register = () => {
+
+
+const RegisterOpen = () => {
   const [formData, setFormData] = useState({});
   const [submitedFlag, setSubmitFlag] = useState(false);
+ 
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -22,8 +25,7 @@ const Register = () => {
     e.preventDefault();
     console.log(formData);
 
-    const res = insertData( formData );
-
+    const res = registerForOpen( formData );
     setSubmitFlag(res);
     window.location.href = "/participants";
   };
@@ -33,9 +35,7 @@ const Register = () => {
     
     {submitedFlag && <div>thank you for registation</div>}
     {!submitedFlag && (
-
-    
-    <form className=" flex flex-col gap-4 my-8 sm:mx-4 mx-auto" onSubmit={handleSubmit}>
+    <form className=" flex flex-col gap-4 my-8 sm:mx-4 mx-auto"  onSubmit={handleSubmit}>
       <div className={classes.row}>
         <label htmlFor="e_mail">{"E-mail"}</label>
         <input
@@ -85,38 +85,16 @@ const Register = () => {
         />
       </div> */}
       <div className={classes.row}>
-        <label htmlFor="faculty">{"Faculty"}</label>
+        <label htmlFor="Club">{"Club"}</label>
         <input
           type="text"
-          id="faculty"
-          name="faculty"
+          id="club"
+          name="club"
           onChange={handleChange}
           required
         />
       </div>
-      <div className={classes.row}>
-        <label htmlFor="university">{"University"}</label>
-        <input
-          type="text"
-          id="university"
-          name="university"
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <div className={classes.row }>
-        <label htmlFor="level_of_studies">{"Studies level"}</label>
-        <select
-          id="level_of_studies"
-          name="degree"
-          onChange={handleChange}
-          required
-        >
-          <option value="BS">BS</option>
-          <option value="MS">MS</option>
-          <option value="PHD">PHD</option>
-        </select>
-      </div>
+      
       <div className={classes.row}>
         <label htmlFor="country">{"Country"}</label>
         <input
@@ -140,8 +118,8 @@ const Register = () => {
       <button className=" btn btn-blue" type="submit">Register</button>
     </form>
     )}
-    </>
+      </>
   );
 };
 
-export default Register;
+export default RegisterOpen;

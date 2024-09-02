@@ -44,9 +44,7 @@ export default function Menu() {
             <li>
               <Link href="/details">Other info</Link>
             </li>
-            <li>
-              <Link href="/nsOpen">NS Open</Link>
-            </li>
+            
           </ul>
         </div>
       </header>

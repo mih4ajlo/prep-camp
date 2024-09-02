@@ -10,27 +10,11 @@ export async function registerForOpen(formData) {
     const supabase = createClient();
 
     const  data = 
-        await supabase.from("open_participants")
+        await supabase.from("bg_open_participants")
         .insert(formData);
 
 
     return data;
 }
-
-export async  function insertData(passedObj)  {
-    //console.log(passedObj) sanitize, and check
-        
-    //console.log('first', data.status == 201 && !data.error, data)
-    
-
-    const supabase = createClient();
-
-    const  data = 
-        await supabase.from("main_participants")
-        .insert(passedObj);
-
-
-    return data;
-};
 
  

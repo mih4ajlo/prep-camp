@@ -1,5 +1,4 @@
 
-
 import Head from 'next/head'
 
 interface Props {
@@ -10,7 +9,7 @@ interface Props {
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: 'Novi Sad open',
+  title: 'Beograd open',
 };
 
 
