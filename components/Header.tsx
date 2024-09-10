@@ -1,11 +1,9 @@
 import Image from "next/image";
 
-import holPic from "../public/slike/hol.webp";
-import GossSVG from "../public/GoSS_logo.svg";
 
-import trgPic from "../public/slike/trg.webp";
+import kalisPic from "../public/slike/ljepava_kalemegdan.jpg";
 import GoPic from "../public/slike/go_tabla.jpg";
-import Link from "next/link";
+
 import classes from "./header.module.css";
 
 export default function Header() {
@@ -19,7 +17,7 @@ export default function Header() {
         </a> */}
         <div className="relative">
           <Image
-            src={trgPic}
+            src={kalisPic}
             alt="novi sad square"
             width={800}
             className={`${classes.mask} `}

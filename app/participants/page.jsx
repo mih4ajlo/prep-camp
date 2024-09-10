@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   }
 }
 
-const notToDisplay = ["created_at", "id", "e_mail",  "rating","note"];
+const notToDisplay = ["created_at", "id", "e_mail", "rating","note"];
 
 const maping = {
   "first_name": "Name", 

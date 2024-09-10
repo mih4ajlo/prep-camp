@@ -21,7 +21,7 @@ export default function Menu() {
     <>
       <header className={classes.header}>
         <a href="/" className={classes.logo}>
-          BG open 2024
+          BG open 
         </a>
         <div>
           <input className={classes.menuBtn} type="checkbox" id="menuBtn"  />

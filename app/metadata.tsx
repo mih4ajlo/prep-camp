@@ -9,7 +9,7 @@ interface Props {
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: 'Beograd open',
+  title: 'Belgrade open',
 };
 
 

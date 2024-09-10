@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import holPic from "../../public/slike/hol.webp";
 import mapa from "../../public/slike/mapa.png";
 
 export default function page() {
@@ -10,47 +9,34 @@ export default function page() {
         <h1 className="text-[2rem] pb-2">Venue</h1>
 
         <p className="pb-4">
-          New rectorate building has opened some 10 years ago. Building has
-          range of dedicated spaces such as administrative offices, meeting
-          rooms, and conference facilities, all strategically organized to
-          facilitate smooth workflows and communication. The building’s
-          open-plan design encourages transparency and collaboration, with
-          easily accessible areas for both staff and visitors. Advanced
-          technology is integrated throughout, featuring high-speed internet,
-          state-of-the-art audiovisual systems, and automated climate control,
-          which supports both administrative tasks and academic events. The
-          inclusion of flexible meeting spaces and seminar rooms allows for a
-          variety of functions, from formal presentations to informal
-          discussions. Additionally, the building’s design incorporates
-          intuitive signage and accessibility features, ensuring that all areas
-          are easily navigable for people of all abilities. Overall, the new
-          Rectorate Building is engineered to support the university’s
-          operational needs while promoting a productive and collaborative
-          academic atmosphere.
+          The Student Dormitory "Patrijarh Pavle" in Belgrade, located just a
+          30-minute walk from the city's main attractions, has been a reliable
+          partner for years, as part of a long-standing collaboration with
+          Belgrade ans Serbian GO community. Its strategic location, near major
+          universities and public transportation, makes it a convenient and
+          accessible option for students pursuing their academic goals in the
+          city. It's 30 minute walk located from the main attractions in the
+          city
         </p>
 
-        <p>Address: Bulevar Zorana Djindjica 1</p>
-        <a href="https://maps.app.goo.gl/fk7tomHgxMGMQSbD6">
+        <p>Address: Zdravka Čelara 14</p>
+        <a href="https://maps.app.goo.gl/GNT99aZKgN75fRkG6s">
           <Image src={mapa} width={"w-1/3"} />
         </a>
       </div>
       <div>
         <h1 className="text-[2rem] pb-2">Accomodation</h1>
-        <p>
-          Novi Sad is a regional center and it's home to one of the biggest
-          music festival in this part of Europe - Exit; it's shouldn't be a
-          problem to find decent accomodation 
-        </p>
+
         <a
           className="underline"
-          href="https://www.booking.com/searchresults.en-gb.html?ss=Novi+Sad%2C+Vojvodina%2C+Serbia&efdco=1&aid=2311236&lang=en-gb&sb=1&src_elem=sb&src=index&dest_id=-90313&dest_type=city&checkin=2024-09-06&checkout=2024-09-08&group_adults=2&no_rooms=1&group_children=0"
+          href="https://www.booking.com/searchresults.en-gb.html?ss=Belgrade&ssne=Belgrade&ssne_untouched=Belgrade&efdco=1&label=belgrade-79FDxECyKEruy0tByBtb8AS541121738820%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-505767489992%3Alp1028595%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YfqnDqqG8nt10AsofPfvtt0&aid=1610684&lang=en-gb&sb=1&src_elem=sb&src=city&dest_id=-74897&dest_type=city&checkin=2024-10-19&checkout=2024-10-20&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&sb_lp=1"
         >
           Please check Booking for accomodation
         </a>
       </div>
 
       <div className="my-4">
-        <h1 className="text-[2rem] pb-2 mt">Getting to Novi sad</h1>
+        <h1 className="text-[2rem] pb-2 mt">Getting to Belgrade</h1>
         {/* <p>It's a one hour ride from Belgrade airport </p> */}
         Check{" "}
         <a href="https://global.flixbus.com/" className="underline">
