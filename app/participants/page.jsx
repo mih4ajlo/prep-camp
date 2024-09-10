@@ -5,7 +5,7 @@ import { createClient } from "@/utils/supabase/server";
 
 export async function generateMetadata({ params }) {
   return {
-    title: 'BG Open | Participants',
+    title: 'Belgrade Open | Participants',
   }
 }
 
