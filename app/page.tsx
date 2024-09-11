@@ -31,7 +31,7 @@ export default async function Index() {
           </Link>{" "}
           or check <br />
           <Link className="underline" href={"/participants"}>
-            registerd participants
+            registered participants
           </Link>
         </div>
       </div>
