@@ -15,8 +15,7 @@ export default function page() {
           Belgrade ans Serbian GO community. Its strategic location, near major
           universities and public transportation, makes it a convenient and
           accessible option for students pursuing their academic goals in the
-          city. It's 30 minute walk located from the main attractions in the
-          city
+          city. 
         </p>
 
         <p>Address: Zdravka Čelara 14</p>
