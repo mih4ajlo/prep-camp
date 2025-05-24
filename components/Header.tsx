@@ -6,7 +6,7 @@ import GoPic from "../public/slike/go_tabla.jpg";
 
 import classes from "./header.module.css";
 
-export default function Header() {
+export default function Header({title}:{title:string}) {
   return (
     <div className="flex flex-col gap-16 items-center">
       <div className="flex gap-8 justify-center items-center">
@@ -32,11 +32,11 @@ export default function Header() {
       </div>
 
       {/* <Image src={centarPic} alt="asd" width={1200} height={400} className={classes.mask} /> */}
-      <h1 className="sr-only">Belgrade 2024 page</h1>
+      <h1 className="sr-only">{title}</h1>
 
       <div className="text-2xl  lg:text-4xl !leading-tight mx-auto max-w-[70rem] text-center">
         <p className="text-3xl font-bold mb-4">
-         Belgrade open 2024
+          {title}
         </p>
         
       </div>

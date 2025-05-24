@@ -5,6 +5,29 @@ import mapa from "../../public/slike/mapa.png";
 export default function page() {
   return (
     <div className="sm:w-2/3 w-1/3 m-auto">
+      
+      <div>
+        <h1>Location</h1>
+
+        <p>
+          Reaching Subotica: By Car: Subotica
+          is accessible via Highway E-75. It's approximately 180 km from
+          Belgrade and 200 km from Budapest. Visit Subotica By Bus Services:
+          Companies like FlixBus offer comfortable services to Subotica,
+          featuring free Wi-Fi, power outlets, and onboard restrooms.
+        </p>
+
+        <p>
+         
+          In between rounds, participants can soak in the city's energetic
+          atmosphere, combining the thrill of competition with the opportunity
+          to discover Belgrade’s hidden gems. The tournament, set in such a
+          captivating location, promises to be an enriching experience not only
+          for Go enthusiasts but for anyone eager to explore a city known for
+          its warm hospitality and dynamic spirit.
+        </p>
+      </div>
+      
       <div>
         <h1 className="text-[2rem] pb-2">Venue</h1>
 

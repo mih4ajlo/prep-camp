@@ -1,4 +1,3 @@
-import { GeistSans } from "geist/font/sans";
 import { textFont, titleFont } from "../utils/fonts";
 import "./globals.css";
 
@@ -28,7 +27,7 @@ export default function RootLayout({
       <body className="bg-gray-200 text-black">
         <main className="min-h-screen flex flex-col items-center mx-4 mt-20">
           <Menu />
-          <Header />
+          <Header title={titleStr} />
           {children}
           <Footer />
         </main>
