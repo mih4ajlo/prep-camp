@@ -19,7 +19,7 @@ export default async function Index() {
         </p>
 
         <p className="flex justify-center">
-          <Button className="w-1/3" variant={"outline"} size={"lg"}>
+          <Button className="w-1/3 btn p-4" variant={"outline"} size={"lg"}>
             <Link href={"/register"}>Register</Link>
           </Button>
         </p>
